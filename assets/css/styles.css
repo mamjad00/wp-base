@@ -21,3 +21,44 @@
 body.admin-bar {
     max-height: calc(100vh - 32px);
 }
+
+.custom-logo {
+  @apply max-w-[220px] max-h-[60px] w-auto;
+}
+
+
+.testimonial {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.testimonial-photo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-content {
+  flex: 1;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  margin: 0;
+}
+
+.testimonial-role {
+  margin: 0;
+  color: #666;
+  font-size: 0.9em;
+}
